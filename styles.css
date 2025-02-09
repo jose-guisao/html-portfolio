@@ -1,0 +1,122 @@
+:root {
+  --primario: #304b78;
+  --secundario: #1252a6;
+  --terciario: #1261a6;
+  --oscuro: #3dadd9;
+  --greelight: #79f2f2;
+  --blanco: #ffffff;
+
+  --Rojo: #d91a2a;
+  --VerdeObscuro: #022601;
+  --VerdeOliva: #a2bf8e;
+  --VerdeLima: #91bf4b;
+  --Amarillo: #f2b705;
+
+  --gradient-green: linear-gradient(
+    to right,
+    #352d40 0%,
+    37.69841194152832%,
+    #57c5e6 75.39682388305664%,
+    87.69841194152832%,
+    #2463ac 100%
+  );
+  --gradient-green-secondary: linear-gradient(
+    0.25turn,
+    rgba(53, 45, 64, 1) 0%,
+    37.69841194152832%,
+    rgba(87, 197, 230, 1) 75.39682388305664%,
+    87.69841194152832%,
+    rgba(36, 99, 172, 1) 100%
+  );
+
+  /* Color Theme Swatches in Hex */
+  --WebPagesMockups1: #433fbf;
+  --WebPagesMockups2: #5d5abf;
+  --WebPagesMockups3: #5357a6;
+  --WebPagesMockups4: #5b74a6;
+  --WebPagesMockups5: #f2f2f2;
+
+  /* Gradient in Hex */
+  --gradient-WebPagesMockups1: linear-gradient(to top, #ffffff, #85cdfdd5 );
+
+  /* Gradient in RGBA */
+  /* linear-gradient(to right, rgba(252, 247, 255, 1) 0%, 33.276643990929706%, rgba(107, 139, 164, 1) 66.55328798185941%, 83.2766439909297%, rgba(255, 255, 255, 1) 100%); */
+}
+
+.montserrat-h1 {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-texto {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grandstander-header {
+  font-family: "Grandstander", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--WebPagesMockups5);
+  color: var(--VerdeObscuro);
+  text-align: center;
+  background: var(--gradient-WebPagesMockups1);
+  background-size: auto;
+  font-family: "Montserrat", serif;
+  font-size: large;
+}
+
+img {
+  max-height: 350px;
+  /* max-width: 200px; */
+}
+main {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+h1 {
+  color: var(--WebPagesMockups1);
+  font-family: "caveat", serif;
+  font-weight: 700;
+  font-size: 3em;
+}
+header h2 {
+  color:var(--WebPagesMockups4);
+  font-family: "Grandstander",serif;
+  font-size: 1.5em;
+}
+main h2{
+  color: var(--WebPagesMockups2);
+  font-family: "caveat",serif;
+  font-weight:bold;
+}
+h3 {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: var(--WebPagesMockups3);
+}
+p {
+  margin: 0px;
+  color: var(--VerdeOliva);
+}
+.contact p {
+  color: var(--WebPagesMockups1);
+}
+li {
+  max-width: 25%;
+  text-align: center;
+  margin-inline: 40%;
+}
+footer {
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
